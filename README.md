@@ -1,4 +1,4 @@
-# Select toys for your children (Lucky One Selector)
+# Select Toys For Your Children (Lucky One Selector)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
