@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: blueviolet;
+    font-weight: 400;
+}
+
+.header h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
