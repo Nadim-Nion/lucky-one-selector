@@ -1,0 +1,53 @@
+.toy {
+    width: auto;
+    height: 510px;
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    position: relative;
+}
+
+.toy img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+}
+
+.toy-info {
+    padding: 10px;
+}
+
+.toy-info h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /* margin: 12px 0px; */
+}
+
+.toy-info p {
+    margin: 7px 0;
+}
+
+.btn-cart {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: plum;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart:hover {
+    background-color: goldenrod;
+}
+
+.btn-cart p {
+    margin-right: 10px;
+}

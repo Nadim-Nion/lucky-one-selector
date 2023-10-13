@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "picture": "../../images/barbie.jpg",
+        "price": 377,
+        "name": "Barbie"
+    },
+    {
+        "id": 2,
+        "picture": "../../images/boy-toy.jpg",
+        "price": 348,
+        "name": "Boy Toy"
+    },
+    {
+        "id": 3,
+        "picture": "../../images/bus.jpg",
+        "price": 623,
+        "name": "Bus"
+    },
+    {
+        "id": 4,
+        "picture": "../../images/car.jpg",
+        "price": 211,
+        "name": "Car"
+    },
+    {
+        "id": 5,
+        "picture": "../../images/doll.jpg",
+        "price": 82,
+        "name": "Doll"
+    },
+    {
+        "id": 6,
+        "picture": "../../images/football.jpg",
+        "price": 82,
+        "name": "Football"
+    },
+    {
+        "id": 7,
+        "picture": "../../images/teddy-bear.jpg",
+        "price": 743,
+        "name": "Teddy Bear"
+    },
+    {
+        "id": 8,
+        "picture": "../../images/train.jpg",
+        "price": 852,
+        "name": "Train"
+    },
+    {
+        "id": 9,
+        "picture": "../../images/water-gun.jpg",
+        "price": 276,
+        "name": "Water Gun"
+    }
+]
