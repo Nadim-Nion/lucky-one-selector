@@ -2,7 +2,8 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = (props) => {
-    const { cart } = props;
+    const { cart, handleChooseAgain } = props;
+    console.log(props);
 
     const chooseRandomItem = () => {
         if (cart.length === 0) {
@@ -24,7 +25,7 @@ const Cart = (props) => {
                     <p>Choose 1 for me</p>
                 </button>
                 <br />
-                <button className='btn-two'>
+                <button onClick={handleChooseAgain} className='btn-two'>
                     <p>Choose again</p>
                 </button>
             </div>

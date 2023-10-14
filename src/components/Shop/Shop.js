@@ -14,13 +14,25 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (toy) => {
-        if (cart.length < 4) { // Check if the cart has less than 4 items
-            const newCart = [...cart, toy];
-            setCart(newCart);
-        } else {
-            // Handle the case when the cart is full (e.g., show a message)
-            alert('Cart is full! You cannot add more items.');
+        const isItemInCart = cart.find(item => item.id === toy.id);
+
+        if (!isItemInCart) {
+            if (cart.length < 4) { // Check if the cart has less than 4 items
+                const newCart = [...cart, toy];
+                setCart(newCart);
+            } else {
+                // Handle the case when the cart is full (e.g., show a message)
+                alert('Cart is full! You cannot add more items.');
+            }
         }
+        else {
+            alert('Item is already in the cart');
+        }
+
+    }
+
+    const handleChooseAgain = () => {
+        setCart([]);
     }
 
     return (
@@ -35,7 +47,10 @@ const Shop = () => {
                 }
             </div>
             <div className='toy-cart'>
-                <Cart cart={cart}></Cart>
+                <Cart
+                    cart={cart}
+                    handleChooseAgain={handleChooseAgain}
+                ></Cart>
 
             </div>
         </div>
