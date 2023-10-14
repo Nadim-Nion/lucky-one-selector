@@ -1,6 +1,7 @@
 .shop-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    position: relative;
 }
 
 .toy-container {
@@ -8,4 +9,35 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin: 40px;
+}
+
+/* Desktop */
+@media screen and (max-width: 1279px) {
+    .toy-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+}
+
+
+/* Tablet  */
+@media screen and (max-width: 768px) {
+    .toy-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+/* Mobile  */
+@media screen and (max-width: 480px) {
+    .toy-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
 }

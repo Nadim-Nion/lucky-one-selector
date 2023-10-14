@@ -1,0 +1,42 @@
+.cart {
+    background-color: plum;
+    width: auto;
+    height: 400px;
+    position: absolute;
+    top: 40px;
+    position: relative;
+}
+
+.cart h3 {
+    padding: 30px 20px 10px 20px;
+    font-size: 20px;
+}
+
+.cart p {
+    padding: 10px 20px;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+.btn-grp {
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+}
+
+.btn-grp .btn-one {
+    background-color: lightcoral;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-grp .btn-two {
+    background-color: lightslategray;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-grp .btn-one,
+.btn-two p {
+    font-weight: 700;
+}
