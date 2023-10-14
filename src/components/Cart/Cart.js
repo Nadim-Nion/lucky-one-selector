@@ -3,7 +3,7 @@ import './Cart.css';
 
 const Cart = (props) => {
     const { cart, handleChooseAgain } = props;
-    console.log(props);
+    // console.log(props);
 
     const chooseRandomItem = () => {
         if (cart.length === 0) {
