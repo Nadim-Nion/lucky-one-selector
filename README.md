@@ -1,7 +1,67 @@
 # Select Toys For Your Children (Lucky One Selector)
+
 ## React Single Page Application - SPA (Assignment 8)
 
-Live Website (Netlify): 
+---
+### React Shopping Cart SPA
+
+Welcome to the React Shopping Cart Single Page Application (SPA) built with React and enhanced with custom CSS for styling.
+
+### Key Features:
+
+1. **Responsive Design:** This SPA is designed to adapt to various screen sizes, ensuring a seamless shopping experience on desktop, tablet, and mobile devices.
+
+2. **Add to Cart:** Users can easily add their favorite products to the "Selected Toys" component by clicking the 'Add to Cart' button.
+
+3. **Cart Limit:** To keep things manageable, the cart allows users to add a maximum of 4 items. If a user attempts to exceed this limit, they will receive an alert message.
+
+4. **Random Product Selection:** For a touch of surprise, users can choose a random product from the available selection. However, if the cart is empty and a user tries to select an item, they will receive an alert.
+
+5. **Prevent Duplicate Products:** We've made sure that users cannot add the same product to the cart more than once. If they try to do so, they will be alerted.
+
+6. **Cart Reset:** To start fresh or make a new selection, users can reset the cart by clicking the 'Choose again' button.
+
+This React SPA offers a user-friendly and responsive shopping experience with features that make shopping for toys both fun and convenient. Explore the world of toys with ease! 🛒🎉
+
+Feel free to check out the code, contribute, or use this project as a basis for your own e-commerce applications. Happy shopping!
+
+**Note:** This project uses React and plain CSS for styling, so it's a great starting point for those looking to learn or work with these technologies.
+---
+
+## Live Website:
+
+Netlify: https://lucky-one-selector-nion.netlify.app/ 
+
+## ScreenShots: 
+
+Image 1:
+
+![React-App 1](https://github.com/Nadim-Nion/lucky-one-selector/assets/60613933/495c0196-22cb-42a0-be17-5a4074708493)
+
+Image 2 (Full page):  
+
+![React-App 2](https://github.com/Nadim-Nion/lucky-one-selector/assets/60613933/76c80b9b-1058-4068-887f-8a2bfa253548)
+
+Image 3: Toys will be added in the cart after clicking "Add to cart" button
+
+![React-App 3](https://github.com/Nadim-Nion/lucky-one-selector/assets/60613933/b43cc227-8d50-45f3-af9c-828f4e85aad1)
+
+
+Image 4: I will select a random toy for the user
+
+![React-App 4](https://github.com/Nadim-Nion/lucky-one-selector/assets/60613933/441e9d08-f81f-47ec-bafb-b4378a67f089)
+
+
+Image 5: An alert will be shown if users want a random toy from the empty cart
+
+![React-App 5](https://github.com/Nadim-Nion/lucky-one-selector/assets/60613933/05b7d79d-22b9-4d0f-b0e4-f34d79335e98)
+
+
+Image 6: If users click the "Add to cart" button more than one for a particular product, an alert will be shown
+
+![React-App 6](https://github.com/Nadim-Nion/lucky-one-selector/assets/60613933/5c3d29b2-205f-494a-a547-9fb3e2fc5d2a)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
